@@ -2,6 +2,8 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using MPS.DataAccess;
+using MPS.Web;
 using MPS.Web.Data;
 using Serilog;
 using Serilog.Events;
@@ -27,8 +29,8 @@ try
     builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
     builder.Host.ConfigureContainer<ContainerBuilder>(containerBuilder =>
     {
-        // containerBuilder.RegisterModule(new WebModule());
-        //containerBuilder.RegisterModule(new DataAccessModule(connectionString, assemblyName));
+         containerBuilder.RegisterModule(new WebModule());
+        containerBuilder.RegisterModule(new DataAccessModule(connectionString, assemblyName));
     });
 
     // Add services to the container.

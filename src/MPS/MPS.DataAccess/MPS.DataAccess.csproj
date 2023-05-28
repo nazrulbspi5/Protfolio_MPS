@@ -1,13 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="DbContext\" />
-  </ItemGroup>
+	<ItemGroup>		
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />		
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="DbContext\" />
+	</ItemGroup>
 
 </Project>
