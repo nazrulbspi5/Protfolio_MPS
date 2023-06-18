@@ -9,6 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Identity\**" />
+    <Content Remove="Areas\Identity\**" />
+    <EmbeddedResource Remove="Areas\Identity\**" />
+    <None Remove="Areas\Identity\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\ApplicationDbContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.5" />
@@ -20,7 +31,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MPS.DataAccess\MPS.DataAccess.csproj" />
+    <ProjectReference Include="..\MPS.Services\MPS.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\" />
   </ItemGroup>
 
 </Project>

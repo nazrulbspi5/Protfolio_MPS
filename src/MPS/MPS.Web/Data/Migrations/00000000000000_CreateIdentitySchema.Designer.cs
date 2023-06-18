@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MPS.Web.Data;
+using MPS.DataAccess.DbContexts;
 using System;
 
 namespace MPS.Web.Data.Migrations

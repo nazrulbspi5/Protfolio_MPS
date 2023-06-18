@@ -6,11 +6,14 @@ namespace MPS.DataAccess.UnitOfWorks
 {
     public class ApplicationUnitOfWork : UnitOfWork, IApplicationUnitOfWork
     {
-       
-        public ApplicationUnitOfWork(IApplicationDbContext dbContext)
+
+        public ITestRepository Tests { get; private set; }
+        public ApplicationUnitOfWork(IApplicationDbContext dbContext, ITestRepository testRepository)
             : base((DbContext)dbContext)
         {
-           
+            Tests = testRepository;  
         }
+       
+        
     }
 }

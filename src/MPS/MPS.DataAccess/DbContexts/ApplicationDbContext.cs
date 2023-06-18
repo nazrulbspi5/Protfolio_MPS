@@ -1,6 +1,7 @@
 ﻿using MPS.DataAccess.Entities.Membership;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MPS.DataAccess.Entities;
 
 namespace MPS.DataAccess.DbContexts
 {
@@ -28,7 +29,7 @@ namespace MPS.DataAccess.DbContexts
 
             base.OnConfiguring(optionsBuilder);
         }
-
+        public DbSet<Test> Tests { get; set; }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
         //    modelBuilder.Entity<ProjectUser>().HasKey(c => new { c.ApplicationUserId, c.ProjectId });
