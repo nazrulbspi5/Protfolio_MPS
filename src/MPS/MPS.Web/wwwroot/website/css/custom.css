@@ -1,0 +1,44 @@
+﻿/*#services {
+    background-color:white !important;
+    color: #fff;
+    text-align: center;
+    background-color: #0A0A13;
+}*/
+.service-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.br-10{    
+    border-radius: 10px;
+}
+
+.text-capatilize{
+    text-transform:capitalize;
+}
+
+body section {
+    padding: 20px 0 !important;
+}
+/*.single-blog {
+    background-color: #dadada !important;
+    color:black;
+
+}*/
+.single-member:hover {
+    background-color: #fc7700;
+}
+#main-carousel .carousel-inner h2 {
+    background-color: #787878 !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+}
+.carousel-inner{
+    top:53px !important;
+}
+#navigation .navbar-nav.navbar-right {
+    margin-top: 22px !important;
+}
+.navbar-header{
+    width:150px !important
+}

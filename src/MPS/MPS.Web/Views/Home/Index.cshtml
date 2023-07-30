@@ -1,8 +1,507 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative One Page Parallax Template">
+    <meta name="keywords" content="Creative, Onepage, Parallax, HTML5, Bootstrap, Popular, custom, personal, portfolio" />
+    <meta name="author" content="">
+    <title>BG - Brand Gulf Trading & Contracting</title>
+    <link href="~/website/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/website/css/prettyPhoto.css" rel="stylesheet">
+    <link href="~/website/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/website/css/animate.css" rel="stylesheet">
+    <link href="~/website/css/main.css" rel="stylesheet">
+    <link href="~/website/css/responsive.css" rel="stylesheet">
+    <link href="~/website/css/custom.css" rel="stylesheet">
+
+    @*<link rel="shortcut icon" href="~/website/images/ico/favicon.png">*@
+    @* <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/website/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/website/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/website/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="~/website/images/ico/apple-touch-icon-57-precomposed.png">*@
+
+</head><!--/head-->
+<body>
+    <div class="preloader">
+        <div class="preloder-wrap">
+            <div class="preloder-inner">
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+                <div class="ball"></div>
+            </div>
+        </div>
+    </div><!--/.preloader-->
+    <header id="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img style="width:43%" src="~/website/images/Mps-Logo.png" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="scroll active"><a href="#navigation">Home</a></li>
+                        <li class="scroll"><a href="#about-us">About Us</a></li>
+                        <li class="scroll"><a href="#services">Services</a></li>
+                        <li class="scroll"><a href="#project">Projects</a></li>
+                        <li class="scroll"><a href="#our-team">Our Team</a></li>
+                        <li class="scroll"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--/navbar-->
+    </header> <!--/#navigation-->
+
+    <section id="home">
+        <div class="home-pattern"></div>
+        <div id="main-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#main-carousel" data-slide-to="1"></li>
+                <li data-target="#main-carousel" data-slide-to="2"></li>
+            </ol><!--/.carousel-indicators-->
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(website/images/slider/3.jpg)">
+                    <div class="carousel-caption">
+                        <div>
+                            <h2 class="heading animated bounceInDown">Brand Gulf Trading & Contracing W L L</h2>
+                            <p class="animated bounceInUp"></p>
+                            <a class="btn btn-default slider-btn animated bounceInUp" href="#">Job Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(website/images/slider/2.jpg)">
+                    <div class="carousel-caption">
+                        <div>
+                            <h2 class="heading animated bounceInDown">Brand Gulf Trading & Contracing W L L</h2>
+                            <p class="animated bounceInUp"></p>
+                            <a class="btn btn-default slider-btn animated bounceInLeft" href="#">Job Apply</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(website/images/slider/1.jpg)">
+                    <div class="carousel-caption">
+                        <div>
+                            <h2 class="heading animated bounceInRight">Brand Gulf Trading & Contracing W L L</h2>
+                            <p class="animated bounceInLeft"></p>
+                            <a class="btn btn-default slider-btn animated bounceInUp" href="#">Job Apply</a>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.carousel-inner-->
+
+            <a class="carousel-left member-carousel-control hidden-xs" href="#main-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+            <a class="carousel-right member-carousel-control hidden-xs" href="#main-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+        </div>
+
+    </section><!--/#home-->
+
+    <section id="about-us">
+        <div class="container">
+            <div class="row text-center clearfix">
+                <div class="col-sm-12">
+                    <h2 class="title-one">About Us</h2>
+                    <p class="blog-heading"><b>Brand Gulf Trading & Contracting</b>, is a dynamic company that emerged onto the interior designing scene in 2023. Despite being a relatively young player in the industry, we have quickly garnered a reputation for excellence and innovation. Our passion for design, dedication to quality, and commitment to using state-of-the-art technology drive our mission to become a leading firm in the field of Interior Designing.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="single-blog br-10">
+                        <img src="~/website/images/about-us/vision1.jpeg" alt="" />
+                        <h2 class="text-center">Our Vision</h2>
+                        <div class="blog-content">
+                            <p>At <b>Brand Gulf</b>, our vision is to redefine interior designing by pushing the boundaries of creativity, innovation, and functionality. We aim to be recognized globally as the go-to firm for visionary designs and exceptional service. By consistently delivering outstanding quality and staying at the forefront of industry technology, we strive to exceed our clients' expectations and create spaces that leave a lasting impression.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6">
+                    <div class="single-blog br-10">
+                        <img src="~/website/images/about-us/mission.jpg" alt="" />
+
+                        <h2 class="text-center">Our Mission</h2>
+                        <div class="blog-content">
+                            <p>Our mission is to provide unparalleled interior designing services that reflect the unique vision and personality of each client. We focus on understanding our clients' needs, preferences, and goals to craft spaces that are not only aesthetically pleasing but also functional and sustainable. Brand Gulf is committed to nurturing long-term relationships with our clients, suppliers, and partners, fostering a collaborative and productive environment.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="row text-center clearfix">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="title-one">Why Choose Brand Gulf?</h2>
+                    <p class="blog-heading">Our services are focused on offering the best services in the industry with the highest value to our clients. We offer various services to contractors in Doha..</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2 class="text-center">We provide the following services!</h2>
+                    <div class="blog-content">
+                        <ul>
+                            <li><p>Commercial office complexes, factories, medical centers, warehouses, and mechanical workshops.</p></li>
+                            <li><p>End-of-lease cleaning for commercial properties and residential properties.</p></li>
+                            <li><p>Carpet Steam cleaning.</p></li>
+                            <li><p>Dusting, Vacuuming, and Floor cleaning.</p></li>
+                            <li><p>Maintenance of surrounding areas including car parks.</p></li>
+                            <li><p>Waste removal.</p></li>
+                            <li><p>We can also provide the services of floor stripping and sealing, tile, and grout cleaning.</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="blog-content">
+                        <img style="width:100%" src="~/website/images/about-us/choose.jpg" alt="" />
+                        <div />
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section> <!--/#about us-->
+
+
+
+    <section id="services" class="parallax-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="title-one">Our Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="our-service">
+                        <div class="services row">
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Manpower Supply</h2>
+                                    <img class="service-img" src="~/website/images/services/manpower.jpeg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Gypsum Installation</h2>
+                                    <img class="service-img" src="~/website/images/services/gypsum.jpg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Interior Design</h2>
+                                    <img class="service-img" src="~/website/images/services/Interior.jpg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="our-service">
+                        <div class="services row">
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Electrical Work</h2>
+                                    <img class="service-img" src="~/website/images/services/Electrical.jpg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Gypsum Installation</h2>
+                                    <img class="service-img" src="~/website/images/services/gypsum.jpg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Interior Design</h2>
+                                    <img class="service-img" src="~/website/images/services/Interior.jpg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="our-service">
+                        <div class="services row">
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Manpower Supply</h2>
+                                    <img class="service-img" src="~/website/images/services/manpower.jpeg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Gypsum Installation</h2>
+                                    <img class="service-img" src="~/website/images/services/gypsum.jpg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="single-service br-10">
+                                    @*<i class="fa fa-th"></i>*@
+                                    <h2 class="text-capatilize">Interior Design</h2>
+                                    <img class="service-img" src="~/website/images/services/Interior.jpg" alt="MANPOWER SUPPLY" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!--/#service-->
+    <section id="project">
+        <div class="container">
+            <div class="row text-center clearfix">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="title-one">Our Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="single-blog br-10">
+                        <img src="~/website/images/projects/Retaj-Al-Rayyan-HotelT.jpg" alt="" />
+                        <h2 class="text-center">Retaj Al Rayyan Hotel</h2>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-blog br-10">
+                        <img src="~/website/images/projects/The-Torch-Tower-Doha.jpg" alt="" />
+                        <h2 class="text-center">The Torch Tower Doha</h2>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="single-blog br-10">
+                        <img src="~/website/images/projects/Marina-Tower-Lusail-PROJECT.jpg" alt="" />
+                        <h2 class="text-center">Marina Tower Lusail</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--/#project-->
+    <section id="our-team">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="title-one">Meet The Our Team</h2>
+                </div>
+            </div>
+            <div id="team-carousel" class="carousel slide" data-interval="false">
+                <a class="member-left" href="#team-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="member-right" href="#team-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                <div class="carousel-inner team-members">
+                    <div class="row item active">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="single-member br-10">
+                                <img src="~/website/images/our-team/Rayhan.jpg" alt="team member" />
+                                <h4>
+                                    Md Rayhan U Shamim
+                                </h4>
+                                <h5>Managing Director</h5>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="single-member br-10">
+                                <img src="~/website/images/our-team/Rashedul.jpg" alt="team member" />
+                                <h4>Md Rashedul Islama</h4>
+                                <h5>Managing Director</h5>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="single-member br-10">
+                                <img src="~/website/images/our-team/Arafath.jpg" alt="team member" />
+                                <h4>Md Arafat Hossain </h4>
+                                <h5>Managing Director</h5>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="single-member br-10">
+                                <img src="~/website/images/our-team/BORHAN.jpg" alt="team member" />
+                                <h4>Md Borhan uddin</h4>
+                                <h5>Marketing Officer</h5>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row item">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="single-member br-10">
+                                <img src="~/website/images/our-team/Younus.jpg" alt="team member" />
+                                <h4>Younus Khandhokar</h4>
+                                <h5>Representative</h5>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="single-member br-10">
+                                <img src="~/website/images/our-team/Joshim.jpg" alt="team member" />
+                                <h4>Md Joshim Uddin</h4>
+                                <h5>Representative</h5>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="single-member br-10">
+                                <img src="~/website/images/our-team/Rayhan.jpg" alt="team member" />
+                                <h4>
+                                    Md Rayhan U Shamim
+                                </h4>
+                                <h5>Managing Director</h5>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="single-member br-10">
+                                <img src="~/website/images/our-team/Rashedul.jpg" alt="team member" />
+                                <h4>Md Rashedul Islama</h4>
+                                <h5>Managing Director</h5>
+                                <div class="socials">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#Our-Team-->
+
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center clearfix">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <div class="contact-heading">
+                        <h2 class="title-one">Contact With Us</h2>
+                        <p>If you want to contact us please call</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contact-details">
+                <div class="pattern"></div>
+                <div class="row text-center clearfix">
+                    <div class="col-sm-6">
+                        <div class="contact-address">
+                            <address><p><span>Brand</span>Gulf</p><strong>Al Muntazah Doha, Qatar.<br />P.O BOX: 720<br />Phone: +97444850074, +97477582590</></strong><br><small><a href="mailto:brandgulf.qa@gmail.com">brandgulf.qa@gmail.com</a></></small></address>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/brandgulftcqa" target="_blank"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a><a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div id="contact-form-section">
+                            <div class="status alert alert-success" style="display: none"></div>
+                            <form id="contact-form" class="contact" name="contact-form" method="post" action="send-mail.php">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control name-field" required="required" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control mail-field" required="required" placeholder="Your Email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--/#contact-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="text-center">
+                <p>Copyright &copy; @DateTime.UtcNow.Year - <a target="_blank" href="http://nazrul-islam.com/">Nazrul Islam</a> | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer> <!--/#footer-->
+
+    <script type="text/javascript" src="~/website/js/jquery.js"></script>
+    <script type="text/javascript" src="~/website/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/website/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="~/website/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="~/website/js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="~/website/js/main.js"></script>
+</body>
+</html>
